@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TraceId</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+        }
+
+        .navbar .title {
+            font-size: 24px;
+        }
+
+        .navbar .right-icons img {
+            margin-left: 10px;
+        }
+
+        /* Sidebar */
+
+        <style>.sidebar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background-color: #f2f2f2;
+            width: 200px;
+            /* Adjust the width as needed */
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .sidebar a {
+            display: block;
+            margin-bottom: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .sidebar img {
+            width: 30px;
+            height: 30px;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .sidebar img:hover {
+            opacity: 1;
+        }
+
+        .main {
+            display: flex;
+            /* justify-content: space-around; */
+        }
+
+        /* Content */
+        .content {
+            padding: 20px;
+            /* background-color: aqua; */
+            height: 509px;
+            width: 1000px;
+        }
+
+        .artical {
+            background-color: aliceblue;
+            height: 518px;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        .BelowNav {
+            display: flex;
+            justify-content: space-around;
+            background-color: blue;
+        }
+
+        .Mainbelowicon {
+            /* background-color: rgb(101, 255, 255); */
+            background-image: linear-gradient(to right, red, rgb(78, 48, 252), rgb(27, 229, 236));
+
+            align-items: center;
+
+            box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+        }
+
+        .Mainabove {
+            background-color: rgb(230, 124, 124);
+            text-align: center;
+            height: 380px;
+            padding: 20px;
+        }
+
+        .bttt {
+            background-color: rgb(86, 102, 102);
+            color: rgb(254, 254, 255);
+            position: absolute;
+            top: 530px;
+            right: 400px;
+        }
+
+        .btt {
+            position: relative;
+            left: 50%;
+            background-color: aquamarine;
+            color: #f2f2f2;
+            margin-top: 440px;
+        }
+
+        /* Icon */
+        .icon {
+            height: 24px;
+            /* Adjust the height value as needed */
+        }
+
+        .icon.filter {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 20px;
+        }
+
+        .add-icon {
+            position: relative;
+            left: 98%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">Company Name</div>
+        <div class="title">Assessment</div>
+        <div class="right-icons">
+            <img src="./images/notification.png" alt="Icon" class="icon">
+            <img src="./images/profile.png" alt="Icon" class="icon">
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="main">
+        <div class="sidebar">
+            <a href="#"><img src="./images/premium-badge.png" alt="Icon" class="icon"></a>
+            <a href="#"><img src="./images/fire.png" alt="Fire" class="icon"></a>
+            <a href="#"><img src="./images/document.png" alt="Document" class="icon"></a>
+            <a href="#"><img src="./images/shopping-cart.png" alt="Cart" class="icon"></a>
+            <a href="#"><img src="./images/technical-support.png" alt="Support" class="icon"></a>
+            <a href="#"><img src="./images/filter.png" alt="Filter" class="icon filter"></a>
+        </div>
+        <!-- Content -->
+        <div class="content">
+
+            <div class="BelowNav">
+                <h2>text</h2>
+                <h2>text</h2>
+                <h2>text</h2>
+            </div>
+
+            <div class="add-icon">
+                <img src="./images/add.png" alt="add" class="icon">
+            </div>
+
+            <div class="Mainabove">
+                <h1 class="Mainbelowicon">My name is subham </h1>
+                <form action="traceid2.html">
+                    <button class="bttt" type="submit">Start</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="artical">
+            <button class="btt"> start</button>
+        </div>
+    </div>
+</body>
+
+</html>
